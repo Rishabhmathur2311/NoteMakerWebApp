@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    background-color: lemonchiffon;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#h{
+    background-color: #CC6600;
+}
+
+.head{
+    /* font-family:   Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* display: flex;
+    justify-content: center; */
+    display: block;
+    height: 4em;
+    padding: 2%;
+    background-color: #CC6600;
+    color: lemonchiffon;
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid gainsboro;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+.noteInput{
+    background-color: white;
+    width: fit-content;
+    /* border-radius: 1%;; */
+    border: solid ;
+    padding: 1%;
+    margin: 2%;
+    border: 2px solid gainsboro;
+    box-shadow: 4px 8px gainsboro;
+    
+    /* box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.07); */
+}
+
+.flexDisplay{
+    background-color: white;
+}
+
+.foot{
+    border-top: 2px solid gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+#titl{
+    border-bottom: 1px solid #888888;
+    background-color: white;
+}
+
+#plus{
+    margin-left: 800%;
+    font-size: 4em;
+}
+
+#delete{
+        display: flex;
+        background-color: white;
+        color: black;
+        border-color: white;
+        font-size: 2em;
+        justify-content: left;
+}
+
+.contentOutput{
+    display: grid;
+    grid-column: 1 / 5;
+    background-color: white;
+    display: flex;
+}
+
+.contentInput{
+    background-color: white;
+}
+
+button{
+   
+    border: none;
+    font-size: .7em;
+    
+}
+
+.output{
+    display: grid;
+    grid-column: 1 / 5;
+    width: fit-content;
+    border: 0.5px solid gainsboro;
+    box-shadow: 2px 4px gainsboro;
+    margin: 2%;
+    padding: 1%;
+    background-color: white;
+    height: fit-content;
+}
+
+.titleOutput{
+    font-weight: bold;
+    background-color: white;
+}
+
+.noteInput:target ~ .noteInput {
+    border: solid;
+}
